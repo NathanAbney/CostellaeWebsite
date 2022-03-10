@@ -92,11 +92,12 @@ nav {
     transform: translateX(0%);
 }
 
-.container {
+container {
     color: white;
     text-align: center;
     font-family: 'League Spartan', sans-serif;
     padding: 10%;
+    background-color: #121212;
 }
 
 .container h1 {
