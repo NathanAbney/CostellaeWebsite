@@ -11,7 +11,8 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: 'Hubballi';
+    font-family: 'League Spartan', sans-serif;
+    font-stretch: wider;
     background-color: #121212;
     opacity: 100%;
     min-height: 5vh;
@@ -19,7 +20,7 @@ nav {
 
 .logo {
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
 }
 
@@ -77,6 +78,11 @@ nav {
         display: block;
     }
 
+    #video {
+        width: 280px;
+        height: 157px;
+    }
+
 }
 
 .nav-active {
@@ -86,11 +92,21 @@ nav {
 .container {
     color: white;
     text-align: center;
-    font-family: 'Hubballi';
-    padding: 20%;
+    font-family: 'League Spartan', sans-serif;
+    padding: 10%;
+}
+
+.container h1 {
+    font-size: 50px;
 }
 
 .container p {
     padding-top: 5vh;
     font-size: 20px;
+}
+
+#video {
+    margin:20px;
+    padding:5px;
+    background-color: #121212;
 }
