@@ -109,7 +109,7 @@ nav {
     font-size: 20px;
 }
 
-.container form {
+container > form {
 
 	background-color: #121212;
 }
