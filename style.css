@@ -93,11 +93,17 @@ nav {
 }
 
 .container {
+    display: block;
     color: white;
     text-align: center;
     font-family: 'League Spartan', sans-serif;
     padding: 10%;
-    background-color: #121212;
+    margin: 0%;
+    background-color: #181818;
+}
+
+.formcontainer {
+    background-color: #181818;
 }
 
 .container h1 {
@@ -109,13 +115,22 @@ nav {
     font-size: 20px;
 }
 
-container > form {
-
-	background-color: #121212;
+#EmailForm {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+	background-color: #181818;
 }
 
 #video {
     margin:20px;
     padding:5px;
     background-color: #121212;
+}
+
+.row {
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
