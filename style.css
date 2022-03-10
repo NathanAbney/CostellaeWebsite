@@ -92,7 +92,7 @@ nav {
     transform: translateX(0%);
 }
 
-container {
+.container {
     color: white;
     text-align: center;
     font-family: 'League Spartan', sans-serif;
@@ -107,6 +107,11 @@ container {
 .container p {
     padding-top: 5vh;
     font-size: 20px;
+}
+
+.container form {
+
+	background-color: #121212;
 }
 
 #video {
