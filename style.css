@@ -115,6 +115,18 @@ nav {
     font-size: 20px;
 }
 
+.container a {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container li {
+    list-style: none;
+    padding-top: 5vh;
+}
+
 #EmailForm {
     padding-left: 0px;
     padding-right: 0px;
