@@ -5,6 +5,7 @@
 
 body {
     background-color: #181818;
+    overflow-x: hidden !important;
 }
 
 nav {
@@ -57,9 +58,6 @@ nav {
 }
 
 @media screen and (max-width:728px) {
-    body {
-        overflow-x: hidden;
-    }
     .links {
         position: absolute;
         right: 0px;
@@ -100,6 +98,8 @@ nav {
     padding: 10%;
     margin: 0%;
     background-color: #181818;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
 }
 
 .formcontainer {
