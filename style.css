@@ -132,14 +132,14 @@ nav {
 }
 
 #EmailForm {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 0px;
+    padding-right: 0px;
     margin-left: 0px;
     margin-right: 0px;
     background-color: #181818;
 }
 
-#welcomeText {
+#welcomeText p{
 
 	color: white;
 }
