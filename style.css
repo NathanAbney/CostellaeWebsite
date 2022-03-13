@@ -139,9 +139,10 @@ nav {
     background-color: #181818;
 }
 
-#welcomeText p{
+#welcomeText {
 
-	padding: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 	color: white;
 }
 
