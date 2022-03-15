@@ -157,14 +157,14 @@ nav {
 	padding-left: 0px;
 	padding-right: 0px;
 }
-
 .parent {
-    margin: 1rem;
-    text-align: center;
+	display: grid; 
+	grid-template-columns: 1fr 1fr; 
+	grid-gap: 20px; 
+	width: 100%; 
 }
 
 .child {
-    display: inline-block;
-    padding: 1rem 1rem;
-    vertical-align: middle;
-  }
+	padding-top:25px;
+	margin: 10px; 
+}
