@@ -83,6 +83,10 @@ nav {
         display: block;
     }
 
+    .parent {
+        display: block;
+    }
+
     #video {
         width: 280px;
         height: 157px;
