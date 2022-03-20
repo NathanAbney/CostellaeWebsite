@@ -1,146 +1,151 @@
+@import "css/bootstrap.min.css";
+
+.bootstrap_class{}
+.hero-unit{}
+
 * {
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden !important;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden !important;
 }
 
 body {
-    background-color: hsl(0, 0%, 9%);
+	background-color: hsl(0, 0%, 9%);
 }
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: 'League Spartan', sans-serif;
-    font-stretch: wider;
-    background-color: #121212;
-    opacity: 100%;
-    min-height: 5vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: 'League Spartan', sans-serif;
+	font-stretch: wider;
+	background-color: #121212;
+	opacity: 100%;
+	min-height: 5vh;
 }
 
 .logo {
-    text-transform: uppercase;
-    font-size: 20px;
-    color: white;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: white;
 }
 
 .links {
-    display: flex;
-    justify-content: space-around;
-    width: 30%;
+	display: flex;
+	justify-content: space-around;
+	width: 30%;
 }
 
 .links li {
-    list-style: none;
+	list-style: none;
 }
 
 .links a{
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
 
 .nav-mobile {
-    display: none;
+	display: none;
 }
 
 .nav-mobile div{
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 5px;
+	width: 25px;
+	height: 3px;
+	background-color: white;
+	margin: 5px;
 }
 
 @media screen and (max-width:1024px) {
-    .links {
-        width:60%;
-    }
+	.links {
+		width:60%;
+	}
 }
 
 @media screen and (max-width:728px) { 
-    * {
-        overflow-x: hidden !important;
-    }
+	* {
+		overflow-x: hidden !important;
+	}
 
-    .links {
-        position: absolute;
-        right: 0px;
-        top: 5vh;
-        height: 95vh;
-        background-color: #121212;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 50%;
-        transform: translateX(100%);
-    }
+	.links {
+		position: absolute;
+		right: 0px;
+		top: 5vh;
+		height: 95vh;
+		background-color: #121212;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 50%;
+		transform: translateX(100%);
+	}
 
-    .links li {
-        opacity: 100;
-    }
+	.links li {
+		opacity: 100;
+	}
 
-    .nav-mobile {
-        display: block;
-    }
+	.nav-mobile {
+		display: block;
+	}
 
-    .parent {
-        display: block;
-    }
+	.parent {
+		display: block;
+	}
 
-    #video {
-        width: 280px;
-        height: 157px;
-    }
+	#video {
+		width: 280px;
+		height: 157px;
+	}
 
 }
 
 .nav-active {
-    transform: translateX(0%);
+	transform: translateX(0%);
 }
 
 .container {
-    display: block;
-    color: white;
-    text-align: center;
-    font-family: 'League Spartan', sans-serif;
-    padding: 10%;
-    margin: 0%;
-    background-color: #181818;
-    max-width: 100% !important;
-    overflow-x: hidden !important;
+	display: block;
+	color: white;
+	text-align: center;
+	font-family: 'League Spartan', sans-serif;
+	padding: 10%;
+	margin: 0%;
+	background-color: #181818;
+	max-width: 100% !important;
+	overflow-x: hidden !important;
 }
 
 .formcontainer {
-    background-color: #181818;
+	background-color: #181818;
 }
 
 .container h1 {
-    font-size: 50px;
+	font-size: 50px;
 }
 
 .container p {
-    padding-top: 5vh;
-    font-size: 20px;
+	padding-top: 5vh;
+	font-size: 20px;
 }
 
 .container a {
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
 }
 
 .container li {
-    list-style: none;
-    padding-top: 5vh;
+	list-style: none;
+	padding-top: 5vh;
 }
 
 #EmailForm {
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    background-color: #181818;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: #181818;
 }
 
 #welcomeText {
