@@ -11,6 +11,16 @@
 	border-radius: 10px;
 }
 
+.block {
+	display: block;
+	width: 100%;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+	background-color: #121212;
+	color: white;
+}
+
 * {
 	margin: 0px;
 	padding: 0px;
