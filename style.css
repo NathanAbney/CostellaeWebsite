@@ -1,7 +1,14 @@
 @import "css/bootstrap.min.css";
 
 .bootstrap_class{}
-.hero-unit{}
+.hero-unit{
+
+#textbox {
+
+	background-color: #121212;
+	color: white;
+	size: 150%;
+}
 
 * {
 	margin: 0px;
