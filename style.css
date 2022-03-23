@@ -169,6 +169,7 @@ nav {
 		width: 50%;
 		transform: translateX(100%);
         display: none;
+        visibility: hidden;
 	}
 
 	.links li {
@@ -193,4 +194,5 @@ nav {
 .links.nav-active {
 	transform: translateX(0%);
     display: flex;
+    visibility: visible;
 }
