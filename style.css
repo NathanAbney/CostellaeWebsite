@@ -198,7 +198,7 @@ nav {
 }
 
 @media (prefers-color-scheme: light) {
-    body {
+    * {
         background-color: white;
         color: black;
     }
