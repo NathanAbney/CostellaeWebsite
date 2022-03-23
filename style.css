@@ -146,6 +146,10 @@ nav {
 	margin: 10px; 
 }
 
+.links\ nav-active {
+	transform: translateX(0%);
+}
+
 @media screen and (max-width:1024px) {
 	.links {
 		width:60%;
@@ -171,7 +175,7 @@ nav {
 	}
 
 	.links li {
-		opacity: 0%;
+		opacity: 100%;
 	}
 
 	.nav-mobile {
@@ -187,8 +191,4 @@ nav {
 		height: 157px;
 	}
 
-}
-
-.links\ nav-active {
-	transform: translateX(0%);
 }
