@@ -76,49 +76,6 @@ nav {
 	margin: 5px;
 }
 
-@media screen and (max-width:1024px) {
-	.links {
-		width:60%;
-	}
-}
-
-@media screen and (max-width:728px) { 
-	* {
-		overflow-x: hidden !important;
-	}
-
-	.links {
-		position: absolute;
-		right: 0px;
-		top: 5vh;
-		height: 95vh;
-		background-color: #121212;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		width: 50%;
-		transform: translateX(100%);
-	}
-
-	.links li {
-		opacity: 100;
-	}
-
-	.nav-mobile {
-		display: block;
-	}
-
-	.parent {
-		display: block;
-	}
-
-	#video {
-		width: 280px;
-		height: 157px;
-	}
-
-}
-
 .nav-active {
 	transform: translateX(0%);
 }
@@ -196,4 +153,51 @@ nav {
 .child {
 	padding-top:25px;
 	margin: 10px; 
+}
+
+@media screen and (max-width:1024px) {
+	.links {
+		width:60%;
+	}
+}
+
+@media screen and (max-width:728px) { 
+	* {
+		overflow-x: hidden !important;
+	}
+
+	.links {
+		position: absolute;
+		right: 0px;
+		top: 5vh;
+		height: 95vh;
+		background-color: #121212;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 50%;
+		transform: translateX(100%);
+	}
+
+	.links li {
+		opacity: 100;
+	}
+
+	.nav-mobile {
+		display: block;
+	}
+
+	.parent {
+		display: block;
+	}
+
+    .child {
+        margin: 30px; 
+    }
+
+	#video {
+		width: 280px;
+		height: 157px;
+	}
+
 }
