@@ -71,10 +71,6 @@ nav {
 	margin: 5px;
 }
 
-.nav-active {
-	transform: translateX(0%);
-}
-
 .container {
 	display: block;
 	color: white;
@@ -191,4 +187,8 @@ nav {
 		height: 157px;
 	}
 
+}
+
+.nav-active {
+	transform: translateX(0%);
 }
