@@ -196,10 +196,3 @@ nav {
     display: flex;
     visibility: visible;
 }
-
-@media (prefers-color-scheme: light) {
-    * {
-        background-color: white;
-        color: black;
-    }
-}
