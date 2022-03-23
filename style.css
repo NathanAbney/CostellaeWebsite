@@ -189,6 +189,6 @@ nav {
 
 }
 
-.links\ nav-active {
-	transform: translateX(-100%);
+.nav-active {
+	transform: translateX(0%);
 }
