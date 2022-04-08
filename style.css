@@ -53,10 +53,11 @@ nav {
 
 .links li {
 	list-style: none;
+	padding:5px;
 }
 
 .links li:hover {
-	font-size: 25px;	
+	background-color: #1f1f1f;
 }
 
 .links a{
