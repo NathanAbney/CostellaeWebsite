@@ -55,6 +55,10 @@ nav {
 	list-style: none;
 }
 
+.links li:hover {
+	font-size: 25px;	
+}
+
 .links a{
 	text-decoration: none;
 	color: white;
