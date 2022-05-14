@@ -224,4 +224,5 @@ nav {
 	width:auto;
 	max-height:30px;
 	max-width:30px;
+	filter:invert(1);
 }
