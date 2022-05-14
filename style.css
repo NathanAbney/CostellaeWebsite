@@ -93,21 +93,21 @@ nav {
 }
 
 .container h1 {
-	font-size: 100px;
+	font-size: 50px;
 }
 
 .container p {
 	padding-top: 5vh;
-	font-size: 50px;
+	font-size: 20px;
 }
 
 .container .subtext {
 	padding-top: 5vh;
-	font-size: 25px;	
+	font-size: 10px;	
 }
 
 .container a {
-	font-size: 50px;
+	font-size: 20px;
 	color: white;
 	text-align: center;
 	text-decoration: none;
