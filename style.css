@@ -213,3 +213,15 @@ nav {
 	height:auto;
 	padding-top: 5vh;
 }
+
+.socials {
+	left-margin:30%;
+	text-align:left;
+}
+
+.socials img {
+	height:auto;
+	width:auto;
+	max-height:10px;
+	max-width:10px;
+}
