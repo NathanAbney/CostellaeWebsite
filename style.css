@@ -206,3 +206,9 @@ nav {
     display: flex;
     visibility: visible;
 }
+
+.profile {
+	border-radius:10px;
+	width:auto;
+	height:auto;
+}
