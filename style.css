@@ -4,6 +4,8 @@
 	color: white;
 	border: double gray 5px;
 	border-radius: 10px;
+
+	width: 75%;
 }
 
 .block {
@@ -235,7 +237,6 @@ nav {
 	font-size: 2.5vw;
 	background-color: black;
 	color: white;
-	padding: 10px;
+	padding: 1%;
 	font-family: 'League Spartan', sans-serif
-	border: white 2px;
 }
