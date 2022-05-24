@@ -225,3 +225,17 @@ nav {
 	max-width:30px;
 	filter:invert(1);
 }
+
+#submitbutton {
+	padding-top: 5%;
+}
+
+#submitbutton .form-control {
+
+	font-size: 2.5vw;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	font-family: 'League Spartan', sans-serif
+	border: white 2px;
+}
