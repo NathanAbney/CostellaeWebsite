@@ -244,6 +244,17 @@ nav {
 	filter:invert(1);
 }
 
+.card {
+	background-color: whitesmoke;
+	border-radius: 25px;
+	color:black;
+	margin-left: 35%;
+	margin-right: 35%;
+	
+	padding-top: .25%;
+	padding-bottom: .25%;
+}
+
 #submitbutton {
 	padding-top: 5%;
 }
