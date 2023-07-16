@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="icon" href="/icon.png">
+    <title>Costellae Studios</title>
+</head>
+<body>
+
+    <!-- Loading nav bar -->
+
+    <nav id="navbar"></nav>
+
+    <script type="text/javascript">
+        $(document).ready(function(e) {
+            $('#navbar').load('/navbar.html',function(){console.log('Nav bar successfully loaded in')});
+        });
+    </script>
+    
+    <!-- Everything in the page below -->
+
+    <div class="container"> 
+
+        <h1> Welcome to our game page! You can view the most recent games here</h1>
+
+        <!--We can make the buttonid change on the game? maybe with a selector pane? -->
+
+        <button id="get_game">Extinction's Edge!</button>
+
+        <script type="text/javascript" src="https://static.itch.io/api.js"></script>
+        <script type="text/javascript">
+            Itch.attachBuyButton(document.getElementById("get_game"), {
+            // replace the following with the correct information about your game
+            user: "Costellae Studios",
+            game: "Extinction's Edge"
+            });
+        </script>
+
+	<br>
+
+
+    </div>
+
+</body>
+</html>
