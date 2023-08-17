@@ -9,6 +9,11 @@
 	margin: auto;
 }
 
+#carousel-loc {
+	width: 33%;
+	justify-content: center;
+}
+
 #hideThis {
 	text-indent: -9999px;
   	color: orange;
