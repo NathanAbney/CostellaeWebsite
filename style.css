@@ -10,8 +10,9 @@
 }
 
 #carousel-loc {
-	width: 33%;
+	width: 50%;
 	justify-content: center;
+	margin: 10%;
 }
 
 #hideThis {
