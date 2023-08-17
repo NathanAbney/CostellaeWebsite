@@ -12,7 +12,12 @@
 #carousel-loc {
 	width: 50%;
 	justify-content: center;
-	margin: 10%;
+}
+
+/* Apply transparency and margin to carousel images */
+.carousel-inner .carousel-item img {
+    opacity: 0.8; 
+    margin: 10px; 
 }
 
 #hideThis {
