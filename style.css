@@ -16,8 +16,8 @@
 
 /* Apply transparency and margin to carousel images */
 .carousel-inner .carousel-item img {
-    opacity: 0.8; 
-    margin: 10px; 
+    opacity: 0.7s; 
+    margin: 5%; 
 }
 
 #hideThis {
